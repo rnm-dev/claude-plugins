@@ -15,7 +15,7 @@
       "name": "plane",
       "source": "./plugins/plane",
       "description": "Manage tasks in RNM's self-hosted Plane workspace via the Plane REST API",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Viktor Ten",
         "email": "ten.viktor@gmail.com"
