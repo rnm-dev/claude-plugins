@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "rnm-plugins",
+  "description": "RNM's internal marketplace of Claude Code plugins",
+  "owner": {
+    "name": "RNM",
+    "url": "https://github.com/rnm-dev"
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "plane",
+      "source": "./plugins/plane",
+      "description": "Manage tasks in RNM's self-hosted Plane workspace via the Plane REST API",
+      "version": "0.1.0",
+      "author": {
+        "name": "Viktor Ten",
+        "email": "ten.viktor@gmail.com"
+      },
+      "category": "integrations",
+      "tags": ["plane", "tasks", "project-management"]
+    }
+  ]
+}

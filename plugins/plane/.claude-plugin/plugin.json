@@ -1,0 +1,13 @@
+{
+  "name": "plane",
+  "description": "Manage tasks in RNM's self-hosted Plane workspace via the Plane REST API",
+  "version": "0.1.0",
+  "author": {
+    "name": "Viktor Ten",
+    "email": "ten.viktor@gmail.com"
+  },
+  "homepage": "https://github.com/rnm-dev/claude-plugins",
+  "repository": "https://github.com/rnm-dev/claude-plugins",
+  "license": "UNLICENSED",
+  "keywords": ["plane", "tasks", "project-management", "rnm"]
+}
