@@ -21,7 +21,27 @@
         "email": "ten.viktor@gmail.com"
       },
       "category": "integrations",
-      "tags": ["plane", "tasks", "project-management"]
+      "tags": [
+        "plane",
+        "tasks",
+        "project-management"
+      ]
+    },
+    {
+      "name": "heroboard",
+      "source": "./plugins/heroboard",
+      "description": "Heroboard: gamified dev board for Claude Code — MCP task tools, effort heartbeats (Monkey/Agent time), and /heroboard commands.",
+      "author": {
+        "name": "Heroboard"
+      },
+      "category": "productivity",
+      "tags": [
+        "heroboard",
+        "time-tracking",
+        "effort",
+        "gamification",
+        "mcp"
+      ]
     }
   ]
 }
