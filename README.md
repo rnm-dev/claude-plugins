@@ -20,7 +20,6 @@ Or install a specific plugin directly:
 
 ```bash
 /plugin install plane@rnm-plugins
-/plugin install heroboard@rnm-plugins
 ```
 
 ## Auto-install for the whole team
@@ -39,8 +38,7 @@ project folder gets prompted to install:
     }
   },
   "enabledPlugins": {
-    "plane@rnm-plugins": true,
-    "heroboard@rnm-plugins": true
+    "plane@rnm-plugins": true
   }
 }
 ```
@@ -50,7 +48,10 @@ project folder gets prompted to install:
 | Plugin | Description |
 | :--- | :--- |
 | [`plane`](./plugins/plane) | Manage tasks in RNM's Plane workspace via the Plane REST API |
-| [`heroboard`](./plugins/heroboard) | Track effort on Heroboard — MCP task tools, Monkey/Agent effort heartbeats, and `/heroboard` commands |
+
+> The **`heroboard`** plugin now lives in its own repo:
+> [`rnm-dev/heroboard-claude-code`](https://github.com/rnm-dev/heroboard-claude-code)
+> (`/plugin marketplace add rnm-dev/heroboard-claude-code`).
 
 ## Adding a new plugin
 
